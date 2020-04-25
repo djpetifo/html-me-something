@@ -1,1 +1,94 @@
-<p>James Petifort</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Me Something</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="intro">
+            <h1>My Superpowers</h1>
+        </div>
+        <div class="powers">
+            <div id="power1"><a href="#html"><img src="images/html5.png" alt="HTML icon"></a></div>
+            <div id="power2"><a href="#css"><img src="images/css3.png" alt="CSS icon"></a></div>
+            <div id="power3"><a href="#js"><img src="images/js.png" alt="Javascript icon"></a></div>
+        </div>
+    </header>
+    <main>
+        <!-- Each article will have an h3 and a p -->
+        <article id="html">
+            <h3>HTML</h3>
+            <p>I started to learn HTML in October of 2019. I started on freecodecamp
+               with their responsive web design section and picked up on the concepts fairly
+               quickly. I'm currently looking through Mozilla Developer Network to get some of the
+               nuances of using HTML, such as making tables, having nested elements for use in CSS and
+               SEO/accessibility best practices. I've already gotten a hold of the basics but there is
+               always more to learn! 
+            </p>
+
+            <p>Today I'm using my HTML powers to make some nice markup that will work well
+               with grid and flexbox. I make sure to give my elements classes if they will
+               receiving common declarations and I put IDs on items that I will need to
+               work with in a JavaScript file. Once I'm a little more comfortable, maybe
+               I'll try my hand at using the hidden attribute to hide articles that aren't
+               being referenced and bring up articles that are selected in the navigation.
+               That is an experiment for later though.
+            </p>
+        </article>
+
+        <article id="css">
+            <h3>CSS</h3>
+            <p>I began learning CSS around the same time that I started HTML, admittedly I
+               have yet to fully master all the concepts of CSS. I am aware that the grid
+               for my superpowers is not responsive at the moment, I plan to fix that Once
+               I have a little more know-how. The plan is to have the images form an upside-down 
+               triangle for medium sized screens and a straight line for small screens. 
+            </p>
+        </article>
+
+        <article id="js">
+            <h3>JavaScript</h3>
+            <p>
+               Finally! The meat and potatoes, DOM manipulation, event handling, scripting,
+               React and Angular. I've done a little bit of everything with JavaScript at
+               this point. I started learning JavaScript in about January of 2020. I had
+               previously read the entirety of the documentation for Python and done a good
+               amount of coding challenges on Code Wars in Python. With that experience I was
+               able to pick up JavaScript relatively quickly. By February I started doing some
+               HackerRank problems just to familiarize myself with the different built in objects
+               and methods. 
+            </p>
+
+            <p>
+               Currently, I'm trying to get a better grasp of basic and intermediate data structures
+               and algorithmns. I've spent the last couple of weekends going though C's standard
+               library and recreating linked lists, trees, tries, queues and stacks in JavaScript.
+               My goal is to familiarize myself with the methods that are required by each data
+               structure and get familiar with some common use cases and algorithms for each. 
+            </p>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="social">
+            <span class="material-icons">face</span>
+            <p>Facebook</p>
+        </div class="email">
+        <div>
+            <span class="material-icons">email</span>
+            <p>Email</p>
+        </div>
+        <div class="hub">
+            <span class="material-icons">device_hub</span>
+            <p>GitHub</p>
+        </div>
+    </footer>
+</body>
+
+</html>
